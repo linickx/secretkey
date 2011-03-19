@@ -2,7 +2,7 @@ Feel free to change or remove this file, it is informational only.
 
 Repo layout
 ===========
-php/ - Externally exposed php code goes
+php/ - Externally exposed php code goes here
 libs/ - Additional libraries
 data/ - For not-externally exposed php code
 
@@ -11,3 +11,9 @@ Notes about layout
 ==================
 Please leave php, libs and data directories but feel free to create additional
 directories if needed.
+
+
+Additional information
+======================
+
+Link to additional information will be here, when we have it :)
