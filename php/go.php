@@ -28,6 +28,18 @@
 			$DHCP = false;
 		}
 		
+	} else {
+		
+		$DHCP = false;
+		
+	}
+	
+	if (!$DHCP) {
+		if (getenv(HTTP_X_FORWARDED_FOR)) {
+			$IP = getenv(HTTP_X_FORWARDED_FOR);
+		} else {
+			$IP = getenv(REMOTE_ADDR);
+		}
 	}
 	
 	header("Content-Type: text/plain");
@@ -38,5 +50,7 @@
 		echo "DHCP = on \n";
 	} else {
 		echo "DHCP = off \n";
+		echo "$IP \n";
 	}
+	
 	?>
