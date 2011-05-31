@@ -114,7 +114,7 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
 <p class="Body"><br /></p>
 <p class="Body">Whatever the encryption we have two parties the encrypted data and the key the hackers are after... like it or not in many cases both reside in the same place! (dropbox anyone?)<br /></p>
 <p class="Body"><br /></p>
-<p class="Body">This is where secretkey comes in, the idea is to create a third party responsible to issuing the key to decrypt the data;Ê an attacker must gain access to the encrypted data and be able to generate the correct request to get the key issued (how hard that is will ultimately depend on the attack) <br /></p>
+<p class="Body">This is where secretkey comes in, the idea is to create a third party responsible to issuing the key to decrypt the data;an attacker must gain access to the encrypted data and be able to generate the correct request to get the key issued (how hard that is will ultimately depend on the attack) <br /></p>
 </div>
 </div>
 </div>
