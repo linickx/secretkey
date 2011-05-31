@@ -48,20 +48,15 @@
 	$Numbers = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "0");
 	$UserAgent = str_replace($Numbers, '', $UserAgent); // We strip version numbers to produce the same results after upgrades.
 	
+	$SecretSauce = $ProviderSalt . $ClientSalt . $UserAgent;
 	
+	if (!$DHCP) {
+		$SecretSauce .= $IP;
+	}
 	
 		// Output.
 	header("Content-Type: text/plain");
 	
-	echo "$ClientSalt \n";
-	
-	if ($DHCP) {
-		echo "DHCP = on \n";
-	} else {
-		echo "DHCP = off \n";
-		echo "$IP \n";
-	}
-	
-	echo "$UserAgent \n";
+	echo "$SecretSauce \n";
 	
 	?>
