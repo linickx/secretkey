@@ -9,6 +9,7 @@
 	if (!file_exists("./config.php")) { 
 		
 		require_once("./setup.php"); // If no Config - run setup
+		exit;
 		
 	}
 	
