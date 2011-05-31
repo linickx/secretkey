@@ -42,6 +42,10 @@
 		}
 	}
 	
+	$UserAgent = getenv(HTTP_USER_AGENT);
+	$Numbers = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "0");
+	$UserAgent = str_replace($Numbers, '', $UserAgent);
+	
 	header("Content-Type: text/plain");
 	
 	echo "$ClientSalt \n";
@@ -52,5 +56,7 @@
 		echo "DHCP = off \n";
 		echo "$IP \n";
 	}
+	
+	echo "$UserAgent \n";
 	
 	?>
