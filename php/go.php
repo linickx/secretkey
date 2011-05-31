@@ -54,9 +54,11 @@
 		$SecretSauce .= $IP;
 	}
 	
+	$SecretKey = hash('sha256', $SecretSauce);
+	
 		// Output.
 	header("Content-Type: text/plain");
 	
-	echo "$SecretSauce \n";
+	echo "$SecretKey \n";
 	
 	?>
