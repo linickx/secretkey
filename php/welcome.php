@@ -53,11 +53,6 @@
 <div id="widget0-bg" class="navbar-bg">
 
 
-<ul id="widget0-navbar-list" class="navbar-list">
-<li></li> 
-</ul>
-
-
 </div>
 
 
@@ -95,7 +90,7 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
 <div id="id1" style="height: 91px; left: 35px; position: absolute; top: 65px; width: 648px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
 <div class="text-content graphic_textbox_layout_style_default_External_648_91" style="padding: 0px; ">
 <div class="graphic_textbox_layout_style_default">
-<p style="padding-bottom: 0pt; padding-top: 0pt; " class="Body">With “the cloud” becoming main-stream encryption must follow. One of the puzzles I’ve been wondering how to solve has been how to deal with private keys in the cloud, the bottom line is once your private key is compromised so is the encryption, this has lead me to a thought.... what if multiple pwnz were required to get at the oh-so precious key?</p>
+<p style="padding-bottom: 0pt; padding-top: 0pt; " class="Body">With <em>the cloud</em> becoming main-stream encryption must follow. One of the puzzles I have been wondering how to solve has been how to deal with private keys in the cloud, the bottom line is once your private key is compromised so is the encryption, this has lead me to a thought.... what if multiple pwnz were required to get at the oh-so precious key?</p>
 </div>
 </div>
 </div>
@@ -115,7 +110,7 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
 <div class="graphic_textbox_layout_style_default">
 <p style="padding-top: 0pt; " class="Body">In a traditional system we have the encryption algorithm and the key. <br /></p>
 <p class="Body"><br /></p>
-<p class="Body">With symmetric encryption, for example a file “secured” by a password the same key is used to open and lock the data, in a cloud based app the key has to stored somewhere where the system can accesses it else it cannot access the data.  Asymmetric systems suffer a similar yet different fault, the data may be encrypted with a different key to which it is decrypted but the decryption key still needs to reside somewhere accessible to the cloud. <br /></p>
+<p class="Body">With symmetric encryption, for example a file <em>secured</em> by a password the same key is used to open and lock the data, in a cloud based app the key has to stored somewhere where the system can accesses it else it cannot access the data. Asymmetric systems suffer a similar yet different fault, the data may be encrypted with a different key to which it is decrypted but the decryption key still needs to reside somewhere accessible to the cloud. <br /></p>
 <p class="Body"><br /></p>
 <p class="Body">Whatever the encryption we have two parties the encrypted data and the key the hackers are after... like it or not in many cases both reside in the same place! (dropbox anyone?)<br /></p>
 <p class="Body"><br /></p>
@@ -135,7 +130,7 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
 <p class="Body"><span class="style">1a68152d25ffc9d5ec8be0c6cfe718b44579c58fb37ff569fd9eab8419c77e0a <br /></span></p>
 <p class="Body"><span class="style"> $</span><br /></p>
 <p class="Body"><br /></p>
-<p class="Body">I have made a HTTP request with an option “k=mykey”. The “k” is the client secret. The result is a long key that can be used as a secret key for encryption purposes.<br /></p>
+<p class="Body">I have made a HTTP request with an option <b>k=mykey</b>. The <b>k</b> is the client secret. The result is a long key that can be used as a secret key for encryption purposes.<br /></p>
 <p class="Body"><br /></p>
 <p class="Body">Now the resulting secret is generated from a combination of the client secret a provider secret (i.e. one saved on secretkey) and properties of the request. The IP address of the client is used to generate the ket, this is not good for DHCP scenarios therefore dhcp=1 can be sent to generate the same key no matter the client ip:<br /></p>
 <p class="Body"><br /></p>
@@ -168,7 +163,7 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
 <div id="id4" style="height: 63px; left: 35px; position: absolute; top: 942px; width: 648px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
 <div class="text-content graphic_textbox_layout_style_default_External_648_63" style="padding: 0px; ">
 <div class="graphic_textbox_layout_style_default">
-<p style="padding-bottom: 0pt; padding-top: 0pt; " class="Body">The sourcecode for this idea will be posted on <a title="https://github.com/linickx/secretkey" href="https://github.com/linickx/secretkey">https://github.com/linickx/secretkey</a>  take a look, don’t just critise on how easy it is to crack, make a suggestion!</p>
+<p style="padding-bottom: 0pt; padding-top: 0pt; " class="Body">The sourcecode for this idea will be posted on <a title="https://github.com/linickx/secretkey" href="https://github.com/linickx/secretkey">https://github.com/linickx/secretkey</a> take a look, do not just critise on how easy it is to crack, make a suggestion!</p>
 </div>
 </div>
 </div>
