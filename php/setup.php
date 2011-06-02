@@ -12,7 +12,7 @@
 	
 	$ConfigString = '<?php $ProviderSalt = "';
 	$ConfigString .= $ProviderSalt;
-	$ConfigString .= '" ?>;';
+	$ConfigString .= '"; ?>';
 	
 	if (!$handle = fopen("../../data/config.php", 'a')) {
 		die('cannot write config.php');
