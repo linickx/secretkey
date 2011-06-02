@@ -6,13 +6,13 @@
 	 
 	 **/
 	
-	if (!file_exists("./config.php")) { 
+	if (!file_exists("../data/config.php")) { 
 		
 		require_once("./setup.php"); // If no Config - run setup
 		exit;
 		
 	} else {
-		require_once("./config.php"); // require our config file
+		require_once("../data/config.php"); // require our config file
 	}
 	
 	if (isset($_GET['k'])) {
