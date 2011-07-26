@@ -126,7 +126,7 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
 <div class="graphic_textbox_layout_style_default">
 <p style="padding-top: 0pt; " class="Body">Basic usage is as follows:<br /></p>
 <p class="Body"><br /></p>
-<p class="Body"> <span class="style">$curl </span><a title="http://secretkey-linickx.rhcloud.com/?k=mykey" href="http://secretkey-linickx.rhcloud.com/?k=mykey" class="style">http://secretkey-linickx.rhcloud.com/?k=mykey</a><span class="style"><br /></span></p>
+<p class="Body"> <span class="style">$curl </span><a title="https://secretkey-linickx.rhcloud.com/?k=mykey" href="https://secretkey-linickx.rhcloud.com/?k=mykey" class="style">https://secretkey-linickx.rhcloud.com/?k=mykey</a><span class="style"><br /></span></p>
 <p class="Body"><span class="style">1a68152d25ffc9d5ec8be0c6cfe718b44579c58fb37ff569fd9eab8419c77e0a <br /></span></p>
 <p class="Body"><span class="style"> $</span><br /></p>
 <p class="Body"><br /></p>
@@ -134,7 +134,7 @@ new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources
 <p class="Body"><br /></p>
 <p class="Body">Now the resulting secret is generated from a combination of the client secret a provider secret (i.e. one saved on secretkey) and properties of the request. The IP address of the client is used to generate the ket, this is not good for DHCP scenarios therefore dhcp=1 can be sent to generate the same key no matter the client ip:<br /></p>
 <p class="Body"><br /></p>
-<p class="paragraph_style">$curl &quot;<a title="http://secretkey-linickx.rhcloud.com/?k=mykey&amp;dhcp=1" href="http://secretkey-linickx.rhcloud.com/?k=mykey&amp;dhcp=1">http://secretkey-linickx.rhcloud.com/?k=mykey&amp;dhcp=1</a>&quot;<br /></p>
+<p class="paragraph_style">$curl &quot;<a title="https://secretkey-linickx.rhcloud.com/?k=mykey&amp;dhcp=1" href="https://secretkey-linickx.rhcloud.com/?k=mykey&amp;dhcp=1">https://secretkey-linickx.rhcloud.com/?k=mykey&amp;dhcp=1</a>&quot;<br /></p>
 <p class="paragraph_style">927f8f98c100d99af33b4763528c24291c07bcd230f1d9245b0788fa2ac2b5ed<br /></p>
 <p class="paragraph_style">$<br /></p>
 <p class="Body"><br /></p>

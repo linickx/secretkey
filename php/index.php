@@ -6,6 +6,12 @@
 	 
 	 **/
 	
+	if($_SERVER['HTTPS']!=="on") { // Require SSL, we need to really!
+	
+		$redirect= "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+		header("Location:$redirect");
+	}
+	
 	if (!file_exists("../../data/config.php")) { 
 		
 		require_once("./setup.php"); // If no Config - run setup
