@@ -9,7 +9,10 @@
 	if($_SERVER['HTTPS']!=="on") { // Require SSL, we need to really!
 	
 		$redirect= "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-		header("Location:$redirect");
+		#header("Location:$redirect");
+		
+		print_r($_SERVER);
+		exit;
 	}
 	
 	if (!file_exists("../../data/config.php")) { 
