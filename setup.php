@@ -14,7 +14,7 @@
 	$ConfigString .= $ProviderSalt;
 	$ConfigString .= '"; ?>';
 	
-	if (!$handle = fopen("../../data/config.php", 'a')) {
+	if (!$handle = fopen( DATADIR . "config.php", 'a')) {
 		die('cannot write config.php');
 
 	}
